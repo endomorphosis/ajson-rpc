@@ -7,5 +7,6 @@ can also be found in the aJson directory.
 
 Currently only a subset of version 1.0 of the protocol is supported.
 Only a proper request message with method and params keys will be
-interpreted. If a method by the same name if registered with the library,
-the method will be called with exactly one argument of type aJsonObject*.
+interpreted, the id will be ignored for now. If a method by the same name
+is registered with the library, the method will be called with exactly one
+argument of type aJsonObject*.
