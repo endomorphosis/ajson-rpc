@@ -1,0 +1,1 @@
+A library for arduino for using the JSON-RPC protocol over serial connection
